@@ -1,158 +1,299 @@
-/*
-liver #725752;
-battleship #878E88;
-opal #96C0B7;
-beige #D4DFC7;
-blond #FEF6C9;
- */
 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F0D8CD;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
 
-*{
-	background-color: #ffffff;
+h1{
+    padding-left: 40px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #F0D8CD;
+    color: #000000;
+    padding-top: 30px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #000000;
+    padding-right: 40px;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background-color: #F0D8CD;
+}
+
+.intro img {
+    width: 60%;
+    max-width: 500px;
+}
+
+.intro-text {
+    padding-left: 40px;
+    max-width: 500px;
 }
 
 
-.first
-{
-  margin-top: 50px;
-  align-content: center;
-  display: block;
-  font-size: 0;
+
+
+.best-sellers {
+    text-align: center;
+    padding: 70px;
+    background-color: #ACB2C4;
 }
 
-.center{
-
-align-content: center;
-display: block;
-font-size: 0px;
-margin: 0px;
-
+.product-list {
+    padding-top: 60px;
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
-.last{
-  margin-bottom: 50px;
-  align-content: center;
-  display: block;
-font-size: 0px;
+.product {
+    background: white;
+    padding: 15px;
+    border-radius: 0px;
+    width: 200px;
+    text-align: center;
 }
 
-.rectangle{
-  width:100%;
-  height:2px;
-  background:#96C0B7; 
-  margin-bottom: 20px;
+.product img {
+    width: 200px;
+    height: 200px;
 }
 
-.rectangle2{
-  width:50%;
-  height:2px;
-  background:#96C0B7; 
+h2{
+    font-size: 30px;
 }
 
-.rectangle3{
-  width:75%;
-  height:2px;
-  background:#96C0B7; 
+.add-to-cart {
+    display: block;
+    background: #A2D2FF;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
 }
 
 
-.name{
-  font-family: 'Bodoni Moda', serif;
-  font-size: 35pt;
-  color: #725752;
-  margin-left: 20px;
-  margin-top: 30px;
 
+
+
+.location-hours {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
 }
 
-.info{
-  font-family: 'Bodoni Moda', serif;
-  color: #878E88;
-  margin-left: 20px;
-  display: inline;
-  }
-
-.history{
-  text-align: right;
-  color: #725752;
-  font-family: 'Bodoni Moda', serif;
-  margin-right: 350px;
-  font-size: 35px;
-   line-height: 0px;
+.location-text {
+    flex: 1;
+    padding-right: 20px;
 }
 
-.portfolio{
-  font-family: 'Bodoni Moda', serif;
-  color: #725752;
-  font-size: 45px;
-  text-align: right;
- margin-right: 75px;
- line-height: 0px;
+.tea-room img {
+    width: 100%;
+    max-width: 300px;
+}
+.tea-room h2 {
+    font-size: 40px;
+    padding-left: 40px;
+
+    }
+
+.tea-room button {
+    background: #A2D2FF;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    padding: 25px;
+    margin: 15px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
 }
 
-.column {
-  float: left;
-  width: 40%;
-  color: #878E88;
-  padding: 25px;
-  font-size: 16px;
-  margin-left: 50px;
-  font-family: helvetica, sans-serif;
-  text-align: justify;
-  line-height: 1.5;
 
+
+.gallery {
+    text-align: center;
+    background-color: #DF896C;
+    color: #000000;
 }
 
-.column2 {
-  float: left;
-  width: 40%;
-  padding: 25px;
-  color: #878E88;
-  font-size: 16px;
-  font-family: helvetica, sans-serif;
-  text-align: justify;
-  line-height: 1.5;
-  margin-bottom: 50px;
-  margin-left: 50px;
+.gallery h2 {
+    font-size: 40px;
+    padding-top: 40px;
+    color: #ffffff;
 }
 
-ul{
-  list-style: none;
-  margin-left: 50px;
+.gallery p {
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 30px;
 }
 
-li{
-  display: inline;
+.gallery-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
 }
 
-a:link, a:visited {
-  background-color: #725752;
-  color: #FEF6C9;
-  padding: 10px;
-  text-align: center;
-  text-decoration: none;
-  position: relative;
-  font-family: 'Bodoni Moda', serif;
+.gallery-item {
+    flex: 1 1 calc(33.33% - 20px);
+    box-sizing: border-box;
 }
 
-a:hover, a:active {
-  background-color: #96C0B7;
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
 }
 
-.quote{
-  width: 40px;
-
+.gallery-item img:hover {
+    transform: scale(1.05); 
 }
 
-.profile{
-display: inline;
-  margin-left: 100px;
-    margin-bottom: 50px;
+@media (max-width: 768px) {
+    .gallery-item {
+        flex: 1 1 calc(50% - 20px);
+    }
 }
 
-.profile2{
-display: inline;
-  margin-left: 350px;
-  margin-bottom: 50px;
+@media (max-width: 480px) {
+    .gallery-item {
+        flex: 1 1 100%;
+    }
+}
+
+/* Gift Cards Section */
+.gift-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background-color: #ACB2C4;
+}
+
+.gift-cards-image img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+.gift-cards-content {
+    max-width: 500px;
+    padding-left: 40px;
+    text-align: left;
+}
+
+.gift-cards-content h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.gift-cards-content p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.shop-now-button {
+    display: inline-block;
+    background: #A2D2FF; 
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Newsletter Sign-Up Section */
+.newsletter-signup {
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+}
+
+.newsletter-content {
+    text-align: center;
+    max-width: 600px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.newsletter-content h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.newsletter-content h4 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.newsletter-content form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.newsletter-content input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid;
+    font-size: 1rem;
+    width: 250px;
+}
+
+.newsletter-content button {
+    padding: 10px 20px;
+    background-color: #A2D2FF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.newsletter-content button:hover {
+    background-color: #4A90E2;
+}
 
 
+
+
+
+
+
+.footer {
+    background: #e6f0fa;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
