@@ -1,0 +1,53 @@
+ body {
+      font-family: 'Georgia', serif;
+      background-color: #fdfdf8;
+      color: #444;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      text-align: center;
+      font-family: 'Brush Script MT', cursive;
+      font-size: 3em;
+      color: #9c8b84; /* soft brown */
+    }
+
+    .menu-section {
+      max-width: 800px;
+      margin: 0 auto;
+      background-color: #fffaf5;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      font-family: 'Brush Script MT', cursive;
+      font-size: 2em;
+      color: #6d8d74; /* sage green */
+      margin-top: 30px;
+    }
+
+    .price {
+      font-weight: bold;
+      font-size: 1.1em;
+      color: #333;
+    }
+
+    .note {
+      font-style: italic;
+      margin-top: 4px;
+    }
+
+    p {
+      margin: 5px 0 15px;
+      font-size: 1em;
+    }
+
+    .special-note {
+      font-weight: bold;
+      margin-top: 30px;
+      font-size: 1.1em;
+      text-align: center;
+      color: #a15562; /* dusty rose */
+    }
