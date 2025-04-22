@@ -77,6 +77,11 @@ nav a {
     height: 200px;
 }
 
+.bold-type {
+    font-weight: bold; 
+}
+
+
 h2{
     font-size: 30px;
 }
