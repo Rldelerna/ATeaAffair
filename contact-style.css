@@ -70,23 +70,34 @@
   background-color: #c7a96c;
 }
 
+  body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fdfdf8;
+      margin: 0;
+      padding: 0;
+      color: #2e2e2e;
+    }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: #F0D8CD;
-    color: #000000;
-    padding-top: 30px;
-}
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.5rem 2rem;
+      background-color: #fff;
+      border-bottom: 1px solid #ddd;
+    }
 
-nav a {
-    margin: 0 15px;
-    text-decoration: none;
-    color: #000000;
-    padding-right: 40px;
-}
+    header h1 {
+      color: #6d8d74;
+      font-size: 1.6rem;
+    }
+
+    nav a {
+      margin-left: 1.5rem;
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+    }
 
 .footer {
     background: #e6f0fa;
