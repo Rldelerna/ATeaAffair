@@ -26,6 +26,10 @@
       color: #333;
       font-weight: 500;
     }
+       nav a:hover {
+  text-decoration: underline;
+  color: #a8745d;
+}
 
 .shop-page-layout {
   display: flex;
@@ -107,7 +111,7 @@ select {
   margin-left: 0.5rem;
 }
 
-/* Product Grid */
+
 .product-grid {
   display: flex;
   flex-wrap: wrap;
