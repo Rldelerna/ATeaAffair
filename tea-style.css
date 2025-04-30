@@ -157,13 +157,22 @@
   color: #333;
 }
 
-
+.bold-type {
+  font-weight: bold;
+}
 
 .location-hours {
   background-color: #dfe3cf;
   padding: 60px 20px;
 }
+.location-container h2 {
+  font-family: 'Segoe UI', sans-serif;
+  color: #000000;
+}
 
+.location-container h1 {
+  font-family: 'Segoe UI', sans-serif;
+}
 .location-container {
   display: flex;
   align-items: flex-start;
@@ -192,6 +201,10 @@
   text-align: center;
   margin-top: 2rem;
   margin-bottom: 1rem;
+  font-family: 'Segoe UI', sans-serif;
+  color: #000000;
+
+
 }
 
 .info h2 {
@@ -268,9 +281,11 @@
 }
 
 .newsletter-overlay h2 {
+  font-family: 'Segoe UI', sans-serif;
   font-size: 2rem;
   font-weight: 700;
   margin-bottom: 0.5rem;
+  color: #000000;
 }
 
 .newsletter-overlay p {
